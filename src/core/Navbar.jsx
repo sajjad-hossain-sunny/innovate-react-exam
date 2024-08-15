@@ -1,9 +1,8 @@
-import React from 'react'
 import Button from './Button'
 
 const Navbar = () => {
     return (
-        <nav className='bg-transparent fixed w-full top-9.25'>
+        <nav className='bg-transparent fixed w-full top-9.25 z-50'>
             <div className="container flex justify-between items-center">
                 <img src="/Logo.png" alt="Logo" />
                 <div className="font-dm font-medium text-lg text-white flex gap-12.5">
