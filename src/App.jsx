@@ -1,4 +1,4 @@
-import { Banner } from "./components";
+import { Banner, PlatformUsage } from "./components";
 import { Navbar } from "./core";
 
 function App() {
@@ -6,6 +6,7 @@ function App() {
     <>
       <Navbar />
       <Banner />
+      <PlatformUsage />
     </>
   );
 }

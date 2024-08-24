@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
     <>
-      <div className="pt-48.75 pb-139.5 bg-banner bg-no-repeat bg-center bg-cover relative">
+      <section className="pt-48.75 pb-139.5 bg-banner bg-no-repeat bg-center bg-cover relative">
         <div className="container flex flex-col items-center ">
           <div className="w-199 text-white mx-auto text-center">
             <h1 className="font-chivo font-bold text-56px">
@@ -34,7 +34,7 @@ const Banner = () => {
           />
           <div className="absolute top-6.5% left-1/2 -translate-x-1/2 w-69.4% h-82% bg-teal-500"></div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

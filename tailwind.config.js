@@ -31,12 +31,19 @@ export default {
         dm: ["DM Sans", "sans-serif"],
       },
       fontSize: {
+        "46px": "46px",
         "56px": [
           "56px",
           {
             lineHeight: "64px",
           },
         ],
+      },
+      lineHeight: {
+        "14.5": "58px"
+      },
+      letterSpacing: {
+        "tightestest": '-1px',
       },
       colors: {
         primary: "#3639A4",
@@ -55,10 +62,15 @@ export default {
       spacing: {
         0.75: "3px",
         3.75: "15px",
+        7.5: "30px",
         9.25: "37px",
         12.5: "50px",
+        13.75: "55px",
+        29: "116px",
         42.75: "171px",
         48.75: "195px",
+        80: "320px",
+        84: "336px",
         116.75: "467px",
         120: "480px",
         139.5: "558px",
