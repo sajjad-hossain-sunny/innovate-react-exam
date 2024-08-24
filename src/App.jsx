@@ -1,5 +1,5 @@
-import Banner from "./components/Banner"
-import Navbar from "./core/Navbar"
+import { Banner } from "./components";
+import { Navbar } from "./core";
 
 function App() {
   return (

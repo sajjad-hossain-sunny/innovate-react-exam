@@ -1,7 +1,6 @@
-import Button from "./Button";
+import { Button } from "../core";
 import { useState } from "react";
-import HamburgerIcon from "./HamburgerIcon";
-import NavItems from "./NavItems";
+import { HamburgerIcon, NavItems } from "../components";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -16,16 +15,15 @@ const Navbar = () => {
           <img src="/Logo.png" alt="Logo" />
         </a>
         <HamburgerIcon onClick={handleHamburgerClick} open={open} />
-            <NavItems />
+        <NavItems />
 
-            <div className="flex items-center gap-9">
-              <a href="#" className="font-dm font-medium text-lg text-white">
-                Login
-              </a>
-              <Button title="register" />
-            </div>
-
-          </div>
+        <div className="flex items-center gap-9">
+          <a href="#" className="font-dm font-medium text-lg text-white">
+            Login
+          </a>
+          <Button title="register" />
+        </div>
+      </div>
     </nav>
   );
 };
