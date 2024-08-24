@@ -26,7 +26,7 @@ const Banner = () => {
             </button>
           </form>
         </div>
-        <div className="absolute top-150.75 left-1/2 -translate-x-1/2 max-w-300 min-w-80vw">
+        <div className="absolute bottom-0 left-1/2 translate-y-1/4 -translate-x-1/2 max-w-300">
           <img
             src="/Laptop_Screen.png"
             alt="laptop"

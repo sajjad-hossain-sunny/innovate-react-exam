@@ -47,11 +47,13 @@ export default {
         },
         tertiary: "#43E7DF",
         customOrange: "#FF7364",
+        glass: "rgba(0, 0, 0, 0.4)",
       },
       backgroundImage: {
         banner: "url('/BG_Shape.png')",
       },
       spacing: {
+        0.75: "3px",
         3.75: "15px",
         9.25: "37px",
         12.5: "50px",

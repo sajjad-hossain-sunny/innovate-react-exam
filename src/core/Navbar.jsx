@@ -1,30 +1,33 @@
-import Button from './Button'
+import Button from "./Button";
+import { useState } from "react";
+import HamburgerIcon from "./HamburgerIcon";
+import NavItems from "./NavItems";
 
 const Navbar = () => {
-    return (
-        <nav className='bg-transparent fixed w-full top-9.25 z-50'>
-            <div className="container flex justify-between items-center">
-                <img src="/Logo.png" alt="Logo" />
-                <div className="font-dm font-medium text-lg text-white flex gap-12.5">
-                    <select className='bg-transparent border-0 focus:outline-0' name="" id="">
-                        <option value="">Home</option>
-                    </select>
-                    <a href="#" className="">Features</a>
-                    <select className='bg-transparent border-0 focus:outline-0' name="" id="">
-                        <option value="">Service</option>
-                    </select>
-                    <select className='bg-transparent border-0 focus:outline-0' name="" id="">
-                        <option value="">Pages</option>
-                    </select>
-                    <a href="#" className="">Blog</a>
-                </div>
-                <div className="flex items-center gap-9">
-                    <a href="#" className='font-dm font-medium text-lg text-white'>Login</a>
-                    <Button title="register" />
-                </div>
-            </div>
-        </nav>
-    )
-}
+  const [open, setOpen] = useState(false);
 
-export default Navbar
+  const handleHamburgerClick = () => {
+    setOpen(!open);
+  };
+  return (
+    <nav className="bg-primary fixed w-full lg:top-8 z-50 lg:py-2">
+      <div className="container flex justify-between items-center relative z-50 bg-primary">
+        <a href="#" className="">
+          <img src="/Logo.png" alt="Logo" />
+        </a>
+        <HamburgerIcon onClick={handleHamburgerClick} open={open} />
+            <NavItems />
+
+            <div className="flex items-center gap-9">
+              <a href="#" className="font-dm font-medium text-lg text-white">
+                Login
+              </a>
+              <Button title="register" />
+            </div>
+
+          </div>
+    </nav>
+  );
+};
+
+export default Navbar;
