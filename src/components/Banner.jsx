@@ -20,18 +20,14 @@ const Banner = () => {
             />
             <button
               type="button"
-              className="px-7 py-3.75 rounded-md bg-tertiary font-dm font-medium text-lg text-secondary-200 capitalize leading-5 absolute top-1/2 -translate-y-1/2 right-2"
+              className="px-7 py-3.75 rounded-md bg-primary-100 font-dm font-medium text-lg text-secondary-200 capitalize leading-5 absolute top-1/2 -translate-y-1/2 right-2"
             >
               Try for free
             </button>
           </form>
         </div>
         <div className="absolute bottom-0 left-1/2 translate-y-1/4 -translate-x-1/2 max-w-300">
-          <img
-            src="/Laptop_Screen.png"
-            alt="laptop"
-            className="w-full"
-          />
+          <img src="/Laptop_Screen.png" alt="laptop" className="w-full" />
           <div className="absolute top-6.5% left-1/2 -translate-x-1/2 w-69.4% h-82% bg-teal-500"></div>
         </div>
       </section>

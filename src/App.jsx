@@ -1,4 +1,8 @@
-import { Banner, PlatformUsage } from "./components";
+import { 
+  Banner, 
+  PlatformUsage, 
+  Intergration
+} from "./components";
 import { Navbar } from "./core";
 
 function App() {
@@ -7,6 +11,7 @@ function App() {
       <Navbar />
       <Banner />
       <PlatformUsage />
+      <Intergration />
     </>
   );
 }

@@ -9,8 +9,8 @@ const Navbar = () => {
     setOpen(!open);
   };
   return (
-    <nav className="bg-primary fixed w-full lg:top-8 z-50 lg:py-2">
-      <div className="container flex justify-between items-center relative z-50 bg-primary">
+    <nav className="w-full absolute lg:top-8 z-50 lg:py-2">
+      <div className="container flex justify-between items-center relative z-50">
         <a href="#" className="">
           <img src="/Logo.png" alt="Logo" />
         </a>

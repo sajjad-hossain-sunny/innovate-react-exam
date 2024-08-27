@@ -1,10 +1,8 @@
 import PlatformUsageStatics from "../../static/PlatformUsage";
 
 const PlatformUsage = () => {
-  console.log(PlatformUsageStatics);
-
   return (
-    <section className="mt-84 pb-40">
+    <section className="mt-84 mb-40">
       <div className="container">
         <div className="px-13.75 grid grid-cols-12 gap-y-29">
           <div className="col-span-12 grid grid-cols-12">
