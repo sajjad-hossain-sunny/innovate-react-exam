@@ -2,7 +2,7 @@ import { IoIosArrowDown } from "react-icons/io";
 
 const NavItems = () => {
   return (
-    <div className="font-dm font-medium text-lg text-white flex flex-col lg:flex-row lg:gap-12">
+    <div className="font-dm font-medium text-lg text-white flex flex-col lg:flex-row lg:gap-12 pl-5 pt-3 lg:p-0 gap-y-1.5">
       <div className="relative group">
         <span className="flex items-center cursor-pointer">
           Home <IoIosArrowDown className="mt-0.5 ml-2" />
