@@ -1,10 +1,9 @@
 import { Button, IconLink } from "../core";
-import AppsIcons from "../../static/IntergrationStatics";
 
 const Intergration = () => {
   return (
-    <section className="pt-30.5 pb-30.75 bg-primary-50">
-      <div className="container grid grid-cols-2 gap-7.5">
+    <section className="pt-30.5 pb-30.75">
+      <div className="container grid grid-cols-2 gap-x-7.5">
         <div className="col-span-1 flex flex-col justify-center items-start">
           <h4 className="font-dm font-medium text-xl text-customOrange">
             Integrations
@@ -24,13 +23,18 @@ const Intergration = () => {
           />
         </div>
 
-        <div className="col-span-1 grid grid-cols-12 gap-7.5">
-          {AppsIcons.map(({ name, cols }, index) => (
-            <IconLink key={index} name={name} cols={cols} />
-          ))}
-
+        <div className="col-span-1">
+          <div className="grid grid-cols-12 gap-7.5">
+            <IconLink name="wapkiu" className="col-span-6" />
+            <IconLink name="creone" className="col-span-6" />
+            <IconLink name="w" className="col-span-3" />
+            <IconLink name="rainfall" className="col-span-6" />
+            <IconLink name="antDesign" className="col-span-3" />
+            <IconLink name="ulabs" className="col-span-5" />
+            <IconLink name="antDesign" className="col-span-3" />
+            <IconLink name="spiders" className="col-span-4" />
+          </div>
         </div>
-        
       </div>
     </section>
   );

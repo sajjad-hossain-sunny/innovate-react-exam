@@ -73,6 +73,7 @@ export default {
         29: "116px",
         30.5: "122px",
         30.75: "123px",
+        35: "140px",
         35.5: "142px",
         42.75: "171px",
         48.75: "195px",
@@ -89,6 +90,9 @@ export default {
         "82%": "82%",
         "80vw": "80vw",
       },
+      boxShadow: {
+        'intergrateIcon': '0 35px 40px -1.15px rgba(0, 0, 0, 0.05)',
+      }
     },
   },
   plugins: [],

@@ -1,12 +1,12 @@
 import svgIcons from "./svgIcons";
 import PropTypes from "prop-types";
 
-const IconLink = ({name, cols}) => {
+const IconLink = ({name, className}) => {
   const IconComponent = svgIcons[name];
   return (
     <a
       href="#"
-      className={`group h-35.5 col-span-${cols} bg-white rounded-xl grid place-items-center`}
+      className={`group h-35.5 ${className} bg-white rounded-xl grid place-items-center shadow-intergrateIcon`}
     >
       <IconComponent
         className="group-hover:scale-110 duration-300"
@@ -18,7 +18,7 @@ const IconLink = ({name, cols}) => {
 
 IconLink.propTypes = { 
   name: PropTypes.string,
-  cols: PropTypes.number,
+  className: PropTypes.string,
 };
 
 export default IconLink;

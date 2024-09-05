@@ -1,7 +1,8 @@
 import { 
   Banner, 
   PlatformUsage, 
-  Intergration
+  Intergration,
+  Services
 } from "./components";
 import { Navbar } from "./core";
 
@@ -12,6 +13,7 @@ function App() {
       <Banner />
       <PlatformUsage />
       <Intergration />
+      <Services />
     </>
   );
 }
