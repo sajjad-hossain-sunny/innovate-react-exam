@@ -1,10 +1,10 @@
 import { 
+  Navbar,
   Banner, 
   PlatformUsage, 
   Intergration,
   Services
 } from "./components";
-import { Navbar } from "./core";
 
 function App() {
   return (
