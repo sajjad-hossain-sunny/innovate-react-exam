@@ -10,7 +10,7 @@ const IconLink = ({name, className, iconClass}) => {
     >
       <IconComponent
         className={`group-hover:scale-110 duration-300 w-4/6 xl:w-auto ${iconClass}`}
-        hoverClass="group-hover:fill-primary-100 duration-300"
+        hoverClass="group-hover:fill-primary-200 duration-300"
       />
     </a>
   );
