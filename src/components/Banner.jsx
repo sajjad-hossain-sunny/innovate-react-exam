@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
     <>
-      <section className="pt-32 pb-60 md:pt-48.75 sm:pb-84 md:pb-[360px] lg:pb-139.5 bg-banner bg-no-repeat bg-center bg-cover relative">
+      <section className="pt-24 pb-48 landscape:pb-60 sm:landscape:pb-84 md:pt-48.75 sm:pb-84 md:pb-[360px] md:landscape:pb-[360px] lg:pb-139.5 lg:landscape:pb-139.5 bg-banner bg-no-repeat bg-center bg-cover relative">
         <div className="container flex flex-col items-center ">
           <div className="md:w-199 text-white mx-auto text-center">
             <h1 className="font-chivo font-bold text-5xl lg:text-56px">
@@ -15,7 +15,7 @@ const Banner = () => {
           <form action="" className="relative mt-8 w-full sm:w-120 md:w-120">
             <input
               type="text"
-              className="py-4.5 pr-42.75 pl-6 w-full rounded-md font-dm text-secondary-50 focus:outline-none focus:text-secondary-200 border border-solid border-secondary-50"
+              className="py-4.5 md:py-5.5 pr-42.75 pl-6 w-full rounded-md font-dm text-secondary-50 focus:outline-none focus:text-secondary-200 border border-solid border-secondary-50"
               placeholder="Your business email"
             />
             <button
