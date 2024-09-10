@@ -32,6 +32,7 @@ export default {
       },
       fontSize: {
         "46px": "46px",
+        "22px": "22px",
         "56px": [
           "56px",
           {
@@ -40,6 +41,8 @@ export default {
         ],
       },
       lineHeight: {
+        "6.5": "26px",
+        "8.5": "34px",
         "14.5": "58px"
       },
       letterSpacing: {
@@ -56,6 +59,7 @@ export default {
           50: "#B4B6C4",
           100: "#645E76",
           200: "#2C2643",
+          "border": "#DCE7FE"
         },
         customOrange: "#FF7364",
         glass: "rgba(0, 0, 0, 0.4)",
@@ -68,10 +72,12 @@ export default {
         3.75: "15px",
         4.5: "18px",
         5.5: "22px",
+        6.5: "26px",
         7.5: "30px",
         9.25: "37px",
         12.5: "50px",
         13.75: "55px",
+        23: "92px",
         29: "116px",
         30.5: "122px",
         30.75: "123px",
@@ -92,6 +98,9 @@ export default {
         "80%": "80%",
         "82%": "82%",
         "80vw": "80vw",
+      },
+      borderRadius: {
+        5: '20px',
       },
       boxShadow: {
         'intergrateIcon': '0 35px 40px -1.15px rgba(0, 0, 0, 0.05)',
