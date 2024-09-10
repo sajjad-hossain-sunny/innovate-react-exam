@@ -2,11 +2,13 @@ import svgIcons from "./svgIcons";
 import { HiMiniArrowLongRight } from "react-icons/hi2";
 import PropTypes from "prop-types";
 
-const ServicesCard = ({ title, description }) => {
+const ServicesCard = ({ title, description, icon, iconBG }) => {
+  const IconComponent = svgIcons[icon];
+
   return (
     <div className="group col-span-12 sm:col-span-6 lg:col-span-3 border border-secondary-border rounded-5 px-8 py-9 duration-300 hover:bg-primary-300 hover:border-primary-300">
-      <div className="size-23 rounded-full bg-[#FAEAE8] grid place-content-center mb-6.5 duration-300 group-hover:bg-white mx-auto md:mx-0">
-        <svgIcons.flowChart
+      <div className={`size-23 rounded-full grid place-content-center mb-6.5 duration-300 group-hover:bg-white mx-auto md:mx-0`} style={{backgroundColor: iconBG}}>
+        <IconComponent
           className={``}
           hoverClass={"group-hover:fill-primary-300 duration-300"}
         />
@@ -34,7 +36,8 @@ const ServicesCard = ({ title, description }) => {
 ServicesCard.propTypes = { 
   title: PropTypes.string,
   description: PropTypes.string,
-  iconClass: PropTypes.string,
+  icon: PropTypes.string,
+  iconBG: PropTypes.string,
 };
 
 
